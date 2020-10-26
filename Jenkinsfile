@@ -2,11 +2,7 @@ def towerExists = true
 
 pipeline {
 
-  agent {
-    dockerfile {
-      args '-u root --privileged'
-    }
-  }
+  agent any
 
 
   stages {
