@@ -17,4 +17,4 @@
       copy:
         content: "<h1>Hello world</h1>"
         dest: /usr/share/nginx/html/index.html
-        
+         
