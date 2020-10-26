@@ -1,0 +1,18 @@
+---
+tower_object_types:
+  - projects
+  - job_templates
+
+tower_projects:
+  - name: Example Project
+    description: "An example project for demo purposes"
+    organization: Demo
+    scm_url: https://github.com/crenwick93/exampleProjectAnsible.git
+    scm_type: git
+    scm_update_on_launch: yes
+tower_templates:
+  - name: Webserver Configure
+    organization: Demo
+    project: Example Project
+    job_type: run
+    playbook: "playbooks/webserver.yml"
