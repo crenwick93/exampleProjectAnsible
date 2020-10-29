@@ -12,7 +12,7 @@ tower_projects:
     scm_update_on_launch: yes
 tower_templates:
   - name: Webserver Configure
-    organization: Demo 
+    organization: Demo  
     project: Example Project
     job_type: run  
     playbook: "playbooks/webserver.yml" 
