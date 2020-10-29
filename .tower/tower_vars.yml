@@ -14,5 +14,5 @@ tower_templates:
   - name: Webserver Configure
     organization: Demo
     project: Example Project
-    job_type: run
+    job_type: run 
     playbook: "playbooks/webserver.yml" 
