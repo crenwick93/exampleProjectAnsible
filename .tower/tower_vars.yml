@@ -15,4 +15,4 @@ tower_templates:
     organization: Demo
     project: Example Project
     job_type: run
-    playbook: "playbooks/webserver.yml"
+    playbook: "playbooks/webserver.yml" 
