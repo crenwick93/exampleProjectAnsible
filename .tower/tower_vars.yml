@@ -6,13 +6,13 @@ tower_object_types:
 tower_projects:
   - name: Example Project
     description: "An example project for demo purposes"
-    organization: Demo
+    organization: 3TA
     scm_url: https://github.com/crenwick93/exampleProjectAnsible.git
     scm_type: git 
     scm_update_on_launch: yes 
 tower_templates:
   - name: Webserver Configure
-    organization: Demo  
+    organization: 3TA  
     project: Example Project 
     job_type: run  
     playbook: "playbooks/webserver.yml" 
