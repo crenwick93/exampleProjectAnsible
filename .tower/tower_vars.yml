@@ -9,7 +9,7 @@ tower_projects:
     organization: Demo
     scm_url: https://github.com/crenwick93/exampleProjectAnsible.git
     scm_type: git
-    scm_update_on_launch: yes
+    scm_update_on_launch: yes 
 tower_templates:
   - name: Webserver Configure
     organization: Demo  
